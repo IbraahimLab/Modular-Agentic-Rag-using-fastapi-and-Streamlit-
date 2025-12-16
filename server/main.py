@@ -13,6 +13,9 @@ from server.rag.vectorstore import build_vectorstore
 from server.agent.tools import build_tools
 from server.agent.graph import build_agent
 from shared.utils import file_sha256
+from server.observability.langsmith import init_langsmith
+init_langsmith()
+
 
 app = FastAPI(title="Agentic RAG API")
 

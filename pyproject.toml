@@ -15,6 +15,7 @@ dependencies = [
     "langchain-tavily>=0.2.14",
     "langchain-text-splitters>=1.1.0",
     "langgraph>=1.0.5",
+    "langsmith>=0.4.59",
     "pypdf>=6.4.2",
     "python-dotenv>=1.2.1",
     "python-multipart>=0.0.20",
